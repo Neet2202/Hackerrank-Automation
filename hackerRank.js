@@ -10,7 +10,7 @@ let browserOpenPromise = puppeteer.launch({
   args: ["--start-maximized"]
   
 });
-browserOpenPromise //fulfill
+browserOpenPromise 
   .then(function (browser) {
     console.log("browser is open");
     console.log(browserOpenPromise);
